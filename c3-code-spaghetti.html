@@ -10,12 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <style>
         body{
-            display: flex;
+            display: flex;      
             gap: 20px;
             align-items: flex-start;
             font-family: "Poppins", sans-serif;
         }
-        .c {
+        .ordinateur {
             width: 300px;
             border: 1px solid #b6b6be;
             padding: 20px;
@@ -23,31 +23,31 @@
             background: white;
             border-radius: 8px;
         }
-        .c img {
+        .ordinateur img {
             width: 100%;
             height: 200px;
             object-fit: cover;
             border-radius: 4px;
         }
-        .c h2 {
+        .ordinateur h2 {
             font-size: 24px;
             color: #2c3e50;
             margin: 15px 0 10px 0;
             font-weight: 600;
         }
-        .c p {
+        .ordinateur p {
             font-size: 14px;
             color: #7f8c8d;
             margin: 0 0 15px 0;
             line-height: 1.6;
         }
-        .c .p {
+        .ordinateur .prix-ordinateur {
             font-size: 20px;
             color: #27ae60;
             font-weight: bold;
             margin: 0 0 15px 0;
         }
-        .c button {
+        .ordinateur button {
             background: #3498db;
             color: white;
             border: none;
@@ -57,10 +57,10 @@
             font-size: 14px;
             width: 100%;
         }
-        .c button:hover {
+        .ordinateur button:hover {
             background: #2980b9;
         }
-        .badge {
+        .badge-nouveau {
             display: inline-block;
             background: #e74c3c;
             color: white;
@@ -71,7 +71,7 @@
             top: 10px;
             right: 10px;
         }
-        .c2 {
+        .carte-mémoire {
             width: 300px;
             border: 1px solid #b6b6be;
             padding: 20px;
@@ -81,23 +81,23 @@
             display: flex;
             gap: 15px;
         }
-        .c2 img {
+        .carte-mémoire img {
             width: 100px;
             height: 100px;
             object-fit: cover;
             border-radius: 4px;
         }
-        .c2 h3 {
+        .carte-mémoire h3 {
             font-size: 14px;
             color: #2c3e50;
             margin: 0 0 8px 0;
         }
-        .c2 p {
+        .carte-mémoire p {
             font-size: 10px;
             color: #7f8c8d;
             margin: 0 0 17px 0;
         }
-        .c2 button {
+        .carte-mémoire button {
             background: #3498db;
             color: white;
             border: none;
@@ -107,11 +107,11 @@
             font-size: 10px;
             width: 100%;
         }
-        .c2 button:hover {
+        .carte-mémoire button:hover {
             background: #2980b9;
         }
 
-        .c3 {
+        .casque-vr {
             width: 300px;
             border: 3px solid #e74c3c;
             padding: 20px;
@@ -120,31 +120,31 @@
             border-radius: 8px;
             position: relative;
         }
-        .c3 img {
+        .casque-vr img {
             width: 100%;
             height: 200px;
             object-fit: cover;
             border-radius: 4px;
         }
-        .c3 h2 {
+        .casque-vr h2 {
             font-size: 24px;
             color: #2c3e50;
             margin: 15px 0 10px 0;
             font-weight: 600;
         }
-        .c3 p {
+        .casque-vr p {
             font-size: 14px;
             color: #7f8c8d;
             margin: 0 0 15px 0;
             line-height: 1.6;
         }
-        .p2 {
+        .prix-casque {
             font-size: 20px;
             color: #27ae60;
             font-weight: bold;
             margin: 0 0 15px 0;
         }
-        .c3 button {
+        .casque-vr button {
             background: #3498db;
             color: white;
             border: none;
@@ -154,23 +154,22 @@
             font-size: 14px;
             width: 100%;
         }
-        .c3 button:hover {
+        .casque-vr button:hover {
             background: #2980b9;
         }
     </style>
 </head>
 <body>
-    <div class="c">
-   
+    <div class="ordinateur">
         <img src="https://static.photos/technology/320x240/37" alt="Produit">
         <h2>Nom du Produit 1</h2>
         <p>Description courte du produit qui donne envie d'acheter.</p>
-        <div class="p">1149,99 $</div>
+        <div class="prix-ordinateur">1149,99 $</div>
         <button>Ajouter au panier</button>
     </div>
 
 
-    <div class="c2">
+    <div class="carte-mémoire">
         <img src="https://static.photos/technology/100x100/130" alt="Mini produit">
         <div>
             <h3>Nom du produit mini 2</h3>
@@ -179,12 +178,12 @@
         </div>
     </div>
 
-    <div class="c3">
-        <span class="badge">NOUVEAU</span>
+    <div class="casque-vr">
+        <span class="badge-nouveau">NOUVEAU</span>
         <img src="https://static.photos/gaming/320x240/30" alt="Produit">
         <h2>Nom du Produit 3</h2>
         <p>Description courte du produit qui donne envie d'acheter.</p>
-        <div class="p2">1120,99 $</div>
+        <div class="prix-casque">1120,9 $</div>
         <button>Ajouter au panier</button>
     </div>
 </body>
